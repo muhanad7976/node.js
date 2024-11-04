@@ -1,0 +1,24 @@
+{
+    "name": "TASKIFY",
+    "version": "1.0.0",
+    "description": "A simple Node.js project with task routes",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node --watch app.js"
+    },
+    "keywords": [
+        "node",
+        "http",
+        "server",
+        "tasks"
+    ],
+    "author": "Your Name",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.0.0"
+    },
+    "dependencies": {
+        "formidable": "^3.5.2"
+    }
+}
